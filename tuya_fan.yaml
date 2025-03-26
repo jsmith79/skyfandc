@@ -9,7 +9,7 @@ fan:
     output: skyfan_speed
     direction_output: skyfan_direction
     name: ${fan_name}
-    restore_mode: NO_RESTORE
+    restore_mode: ALWAYS_ON
     disabled_by_default: false
     speed_count: 6
 
